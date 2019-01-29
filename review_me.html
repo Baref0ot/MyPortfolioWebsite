@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Matthew Lee Wright | Review </title>
+        <meta charset="utf-8"/>
+        <link rel="shortcut icon" href="pictures/Driveway.jpg" type="image/x-icon" />
+        <meta name="description" content="The practice of creating forms with HTML5"/>
+        <meta name="keywords" content="How To, Computer, Programming, forms, practice"/>
+        <meta name="author" content="Matthew Lee Wright"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="MatthewLeeWrightDesign.css" rel="stylesheet"/>
+        <!--[if lt IE 9]>
+                <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <div class="picOfMe">
+            <a href="index.html"><img src="pictures/profilePic.jpg" alt="a head shot profile picture of Matthew Wright"/></a>
+        </div>
+        <div class="wrapper">
+
+            <div id="showcase">
+
+                <div class="headerRaise">
+                    <header>
+                        <h1><a href="index.html" title="M.L.W | Home"> Matthew Lee Wright </a></h1>
+                        <div class="reviewMe2">
+                            <a href="review_me.html" title="Review Me">Review Me!</a>
+                        </div>
+                    </header>
+                </div>
+
+                <div class="navRaise">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html"> Home </a></li> 
+                            <li><a href="autobiography.html"> Autobiography </a></li> 
+                            <li><a href="credentials.html"> Credentials </a></li> 
+                            <li><a href="work_examples.html"> Examples </a></li>
+                            <li><a href="comingSoon.html"> Reviews </a></li> <!-- when finished developing this will be the reviews.html page -->				
+                            <li><a href="contact.html"> Contact </a></li> 
+                        </ul>
+                    </nav>
+                </div>
+                
+                <!-- this nav is for mobile responsiveness -->
+                <div class="navRaise">
+                    <div class="mobileNav">
+                        <ul>
+                            <li><a href="index.html"><img src="pictures/home1.svg" title="Home" alt="A symbol in shape of a house the navigation section."/></a></li> 
+                            <li><a href="autobiography.html"><img src="pictures/user1.svg" title="Home" alt="A symbol in shape of a house the navigation section."/></a></li> 
+                            <li><a href="credentials.html"><img src="pictures/diploma1.svg" title="Home" alt="A symbol in shape of a house the navigation section."/></a></li> 
+                            <li><a href="work_examples.html"><img src="pictures/chip1.svg" title="Home" alt="A symbol in shape of a house the navigation section."/></a></li>
+                            <li><a href="comingSoon.html"><img src="pictures/review1.svg" title="Home" alt="A symbol in shape of a house the navigation section."/></a></li> <!-- when finished developing this will be the reviews.html page -->			
+                            <li><a href="contact.html"><img src="pictures/letter1.svg" title="Home" alt="A symbol in shape of a house the navigation section."/> </a></li> 
+                        </ul>
+                    </div>
+                </div>
+
+                <main class="reviewmain">
+
+                    <h2> Review Me! </h2>
+                    <p> Were you a previous mentor, employer, or supervisor of mine? </p>
+                    <p> If so, please leave a review of your thoughts on my employability skills! </p>
+
+                    <form method="post" action="http://webdevbasics.net/scripts/demo.php"> 
+                        <label> First Name: </label>
+                        <input type="text" name="firstName" id="firstName" tabindex="1" placeholder="   First Name..." required="required"/> <br/>
+                        <br/>
+                        <label> Last Name: </label>
+                        <input type="text" name="lastName" id="lasttName" tabindex="2" placeholder="   Last Name..." required="required"/> <br/>
+                        <br/> 
+                        <label> Relationship: </label>
+                        <input type="text" name="relationship" id="relationship" tabindex="3" placeholder="   Relationship..." required="required"/> <br/>
+                        <br/>
+                        <label> Company: </label>
+                        <input type="text" name="company" id="company" placeholder="   Company..." tabindex="4"/>
+                        <br/> 
+                        <label> Review: </label>
+                        <textarea name="comments" id="comments" cols="70" rows="12" tabindex="5" required="required" maxlength="2500" placeholder=" Share your Review!"> </textarea> <br/>
+                        <br/>
+                        <input type="submit" name="submit" value="Submit!" tabindex="6" id="submit"/>
+                    </form>
+                </main>
+                <footer>
+                    Copyright &copy; 2018 Matthew Lee Wright
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>
+

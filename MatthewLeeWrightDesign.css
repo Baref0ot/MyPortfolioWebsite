@@ -1,0 +1,1051 @@
+/***************************************************************************
+    Creator:      Matthew Lee Wright
+    Start Date:   April-15-2018 
+    Last Updated: January-29-2019
+    Description:  This is the CSS3 style style sheet for my Portfolio Website.	
+***************************************************************************/
+html, body {
+    margin:0;
+    height: 100%;
+}
+
+html {
+    height: 100%
+}
+
+h1 a {
+    text-decoration: none;
+    color: #d8c060;
+}
+
+h2   {
+    text-decoration: underline;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #474247;
+    box-shadow: 0 4px 9px black;
+}
+
+nav li {
+    float: left;
+    border-right: 1px solid #d8c060;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+nav a  {
+    font-family: calibri;
+    font-size: 20px;
+    text-decoration: none;
+    color: #d8c060;
+    display: block;
+    text-align: center;
+    padding: 16px 68px;}
+
+label {
+    color: #d8c060;
+}
+
+li a:hover:not(.active){
+    background-color: #d8c060;
+    color: #474247;
+    box-shadow: 0 1px 0 1px black;
+    transition: background-color .3s ease-in-out;
+}  
+
+body {
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    background-image: url(pictures/Driveway.jpg);
+    background-position: center;      
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    padding: 10px;
+    padding-top: 3%;
+    padding-bottom: 2.8%;
+    z-index: -1;
+}
+
+p, dl, h2, h3, li {
+    color: #FFFFFF;
+}
+
+caption {
+    color: #d8c060;
+    font-weight: bold;
+    caption-side: top;
+}
+
+form {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+iframe {
+    height: 500px;
+    width: 100%;
+    border: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border: 1px solid #d8c060;
+    opacity: 1;
+}
+
+input {
+    margin-top: 10px;
+    width: 30%;
+    display: block;
+    border:1px solid #d8c060;
+    background-color: #474247;
+    color: #d8c060; 
+    border-radius: 3%;
+}
+
+Button a{
+    font-family: calibri;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline;
+    word-spacing: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align:center;
+    background-color: #474247;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    width: 100%;
+    height: 50px;
+    font-size: small;
+    font-style: italic;
+    color: #d8c060;
+}
+
+.Courses {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    float: right;
+    box-shadow: 3px 3px 3px #474247;
+}
+
+.Courses th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #474247;
+    color: #d8c060;
+}
+
+.Courses tr:nth-child(even){
+    background-color: #aa9966;
+    color: #cccc99;
+}
+
+.Courses a:nth-child(even){
+    text-decoration: none;
+    background-color: #aa9966;
+    color: #cccc99;
+}
+
+.Courses tr:nth-child(odd){
+    text-decoration: none;
+    background-color:#cccc99;
+    color:#aa9966;
+}
+
+.Courses tr:hover {
+    background-color: #474247;
+    color:#d8c060;
+    transition: background-color .3s linear;
+}
+
+.Courses tr a:hover {
+    color:#d8c060;
+    transition: background-color .3s linear;
+}
+
+.Courses td, .Courses th {
+    border: 2px solid #d8c060;
+    padding: 8px;
+}
+
+#accordion h1{
+    position: -webkit-sticky;
+    box-shadow: 3px 3px 9px  black;
+    position: sticky;
+    top: 42px;
+}
+
+#comments {
+    margin-top: 10px;
+    max-width: 100%;
+    width: 80%;
+    height: auto;
+    display: block;
+    border: 2px solid #d8c060;
+    background-color: #474247;
+    color: #d8c060; 
+    border-radius: 3px;
+}
+
+#showcase {
+    width: 70%;
+    padding-top: 13%;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: #786048;
+    z-index: -1;
+    opacity: .90;
+}
+
+#submit {
+    margin-top: 10px;
+    width: 10%;
+    display: block;
+    border:2px solid #d8c060;
+    background-color: #474247;
+    border-radius: 3px;
+    color: #d8c060;
+}
+
+#submit:hover {
+    margin-top: 10px;
+    width: 10%;
+    display: block;
+    border: 2px solid #474247;
+    border-radius: 3px;
+    font-family:calibri;
+    background-color: #d8c060;
+    color: #474247;
+}
+
+.active {
+    background-color: #d8c060;
+    color: #474247;
+} 
+
+.altmain, .credmain, .reviewmain {
+    padding-left: 40px;
+    padding-right:40px;
+    font-size: 20px;
+    padding-bottom: 13.4%;
+}
+
+.buttonToBlog {
+    margin-top: 10px;
+    text-align:center;
+}
+
+.buttonToBlog a {
+    border: 1px solid #d8c060;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family:calibri;
+    background-color: #474247;
+    color: #d8c060;
+    box-shadow: 2px 2px 2px black;
+    padding: 3px;
+}
+
+.buttonToBlog a:hover {
+    border: 1px solid #474247;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family:calibri;
+    background-color: #d8c060;
+    color: #474247;
+}
+
+.certificates {
+    word-spacing: 3px;
+    text-align: center;
+    width: 100%;
+    border:1px solid #d8c060;
+    background-color: #474247;
+    padding: 3px;
+}
+
+.examplesMain {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 150px;
+    font-size: 20px;
+}		
+
+.headerRaise {
+    border: 2px ridge black;
+    box-shadow: 3px 3px 20px black;
+    background-color: #474247;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 3%;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.HomeContent {
+    text-align: center;
+}
+
+.navRaise {
+    background-color: #786048;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+}
+
+.picOfMe img {
+    max-width: 20%;
+    max-height: 40%;
+    width: 10%;
+    height: 20%;
+    border-radius: 50%;
+    border: 1px solid #d8c060;
+    box-shadow: 3px 3px 9px black;
+    position: absolute;
+    left: 3%;
+    top: 10%;
+    z-index: 2;
+    text-decoration: none;
+}
+
+.responsive {
+    max-width: 200px;
+    width: 100%;
+    height: 200px;
+}
+
+.reviewmain  p {
+    text-align: center;
+    color: #d8c060;
+}
+
+.reviewsMain {
+    padding-left: 40px;
+    padding-right:40px;
+    font-size: 20px;
+    padding-bottom: 10%;
+}
+
+.reviewMe {
+    margin-top: 10px;
+}
+
+.reviewMe a {
+    border: 1px solid #d8c060;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family:calibri;
+    background-color: #474247;
+    color: #d8c060;
+    box-shadow: 2px 2px 2px black;
+    padding: 3px;
+}
+
+.reviewMe a:hover {
+    border: 1px solid #474247;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family:calibri;
+    background-color: #d8c060;
+    color: #474247;
+}
+
+.reviewMe2 {
+    margin-top: 10px;
+}
+
+.reviewMe2 a {
+    border: 1px solid #d8c060;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family:calibri;
+    background-color: #474247;
+    color: #d8c060;
+    box-shadow: 2px 2px 2px black;
+    padding: 3px;
+}
+
+.reviewMe2 a:hover {
+    border: 1px solid #474247;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family:calibri;
+    background-color: #d8c060;
+    color: #474247;
+}
+
+.reviewMePanel {
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 15px;
+    margin-top: 5%;
+    margin-bottom: 9%;
+    width: 14.7%;
+    background-color: #474247;
+    border: 1px solid #d8c060;
+    border-radius: 9px;
+    box-shadow: 3px 3px 9px black;
+    opacity: .90;
+    float: left;
+    position: absolute;
+    left: 0;
+}
+
+.reviewMePanel h3, .reviewMePanel p {
+    color: #d8c060;
+}
+
+.reviewMePanel p {
+    padding-bottom: 10%;
+}
+
+.socialMedia {
+    margin-top: 20%;
+    margin-left: 9%;
+    margin-right: 9%;
+    border-top: 1px solid #d8c060;
+} 
+
+.socialMedia a {
+    border: 0;
+    border-radius: 0;
+    text-decoration: none;
+    font-family: none;
+    background-color: none;
+    color: none;
+    box-shadow: none;
+    padding: 0;
+}	
+
+.socialMedia a:hover {
+    border: 0;
+    border-radius: 0;
+    text-decoration: none;
+    font-family: none;
+    background-color: #474247;
+    color: none;
+} 	
+
+.supervisor {
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
+    border-bottom: 1px solid #d8c060;
+}
+
+.supervisor h4 {
+    display: inline;
+    word-spacing: 120px;
+} 
+
+.vidPrompt {
+    padding: 10px;
+    margin-top: 4%;
+    border: 1px solid #d8c060;
+    background-color: #474247;
+    color: #d8c060;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.wrapper {
+    flex:1;
+    min-height: 100%;
+    position: relative;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up)*/ 
+@media only screen and (max-width: 767px){
+   header {
+        border: none;
+        background-color: #474247;
+        text-align: center;
+        padding-top: 0;
+        padding-bottom: 14px;
+   }
+
+    h1 a {
+        text-decoration: none;
+        color: #d8c060;
+        font-size: 25px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    input {
+        margin-top: 10px;
+        width: 100%;
+        height: 30px;
+        display: block;
+        border:2px solid #d8c060;
+        background-color: #474247;
+        color: #d8c060; 
+        border-radius: 3px;
+    }
+
+    footer {
+        padding-bottom: 50px;
+    }
+    
+    #accordion h1{
+        position: -webkit-sticky;
+        box-shadow: 3px 3px 9px  black;
+        position: sticky;
+        top: 0;
+    }
+
+    #comments {
+        margin-top: 10px;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        display: block;
+        border: 2px solid #d8c060;
+        background-color: #474247;
+        color: #d8c060; 
+        border-radius: 3px;
+    }
+
+    #Courses {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        float: left;
+        box-shadow: 3px 3px 3px #474247;
+    }
+
+    #showcase {
+        width: 100%;
+        padding-top: 43%;
+        margin-left:auto;
+        margin-right: auto;
+        background-color: #786048;
+        opacity: .90;
+    }
+
+    #submit {
+        margin-top: 10px;
+        width: 100%;
+        display: block;
+        border:2px solid #d8c060;
+        background-color: #474247;
+        border-radius: 30px;
+        color: #d8c060;
+    }
+
+    #submit:hover {
+        margin-top: 10px;
+        width: 100%;
+        display: block;
+        border: 1px solid #474247;
+        border-radius: 30px;
+        font-family:calibri;
+        background-color: #d8c060;
+        color: #474247;
+    }
+
+    .altmain {
+        padding-left: 40px;
+        padding-right:40px;
+        font-size: 20px;
+        padding-bottom: 4%;
+    }
+
+    .buttonToBlog a {
+        border: 1px solid #d8c060;
+        border-radius: 30px;
+        text-decoration: none;
+        font-family:calibri;
+        background-color: #474247;
+        color: #d8c060;
+        box-shadow: 2px 2px 2px black;
+        padding: 3px;
+    }
+
+    .certificates {
+        word-spacing: 3px;
+        text-align: center;
+        width: 100%;
+        border:1px solid #d8c060;
+        background-color: #474247;
+        padding: 3px;
+        margin-bottom: 4%;
+    }
+
+    .credmain {
+        padding-left: 40px;
+        padding-right:40px;
+        font-size: 20px;
+        padding-bottom: 5%;
+    }
+    
+    .mobileNav {
+        /* for a sticky nav towards the top
+        position: sticky;
+        padding-top: 8px;
+        padding-left: 5px;
+        padding-right: 5px; */
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+        font-weight: bold;
+        width: 100%;
+        height: 50px;
+        border-top: 1px solid #d8c060;
+        border-bottom: 1px solid #d8c060;
+    }
+    
+    .mobileNav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #474247;
+        box-shadow: 0px -1px 9px black;
+    }
+
+    .mobileNav li {
+        float: left;
+        border-bottom: 0;
+        border-right: 1px solid #d8c060;
+        width: 16%;
+    }
+
+    .mobileNav li:last-child {
+        border-right: none;
+    }
+
+
+    .mobileNav a {
+        height: 50px;
+        font-family: calibri;
+        font-size: 15px;
+        text-decoration: none;
+        color: #d8c060;
+        display: block;
+        text-align: center;
+        padding: 10px;
+        width: 75%;
+    }
+
+    .mobileNav img {
+        width: 75%;
+    }
+                   
+    .picOfMe img {
+        max-width: 0;
+        max-height: 0;
+        height: 0;
+        width: 0;
+        border-radius: 0;
+        border: 0;
+        box-shadow: 0;
+        position: 0;
+        left: 0;
+        top: 0;
+        z-index: 0;
+    }
+
+    .reviewMePanel {
+        visibility: hidden;
+        position: fixed;
+    }
+
+    .rewiewMe2 {
+        visibility: visible;
+    }	
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+    nav li {
+        float: none;
+        border-right: 0;
+        border-bottom: 1px solid #d8c060;
+    }
+
+    nav li:last-child {
+        border-bottom: none;
+    }  
+
+    nav a {
+        font-family: calibri;
+        font-size: 15px;
+        text-decoration: none;
+        color: #d8c060;
+        display: block;
+        text-align: center;
+        padding: 12px 68px;
+    }
+
+    input {
+        margin-top: 10px;
+        width: 100%;
+        height: 30px;
+        display: block;
+        border:2px solid #d8c060;
+        background-color: #474247;
+        color: #d8c060; 
+        border-radius: 3px;
+    }
+
+    li a:hover:not(.active){
+        background-color: #d8c060;
+        color: #474247;
+        box-shadow: 1px 0 1px 0 black;
+    }  
+
+    #comments {
+        margin-top: 10px;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        display: block;
+        border: 2px solid #d8c060;
+        background-color: #474247;
+        color: #d8c060; 
+        border-radius: 3px;
+    }
+
+    #Courses {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        float: left;
+        box-shadow: 3px 3px 3px #474247;
+    }
+    
+    #showcase {
+        padding-top: 20%;
+    }
+
+    #submit {
+        margin-top: 10px;
+        width: 100%;
+        display: block;
+        border:1px solid #d8c060;
+        background-color: #474247;
+        border-radius: 30px;
+        color: #d8c060;
+    }
+
+    #submit:hover {
+        margin-top: 10px;
+        width: 100%;
+        display: block;
+        border: 1px solid #474247;
+        border-radius: 30px;
+        font-family:calibri;
+        background-color: #d8c060;
+        color: #474247;
+    }
+
+    .altmain {
+        padding-left: 40px;
+        padding-right:40px;
+        font-size: 20px;
+        padding-bottom: 4%;
+    }
+
+    .buttonToBlog a {
+        border: 1px solid #d8c060;
+        border-radius: 30px;
+        text-decoration: none;
+        font-family:calibri;
+        background-color: #474247;
+        color: #d8c060;
+        box-shadow: 2px 2px 2px black;
+        padding: 3px;
+    }
+
+    .certificates {
+        word-spacing: 3px;
+        text-align: center;
+        width: 100%;
+        border:1px solid #d8c060;
+        background-color: #474247;
+        padding: 3px;
+        margin-bottom: 4%;
+    }
+
+    .credmain {
+        padding-left: 40px;
+        padding-right:40px;
+        font-size: 20px;
+        padding-bottom: 5%;
+    }
+    
+    .mobileNav {
+        display: none;
+    }
+
+    .reviewMePanel {
+        visibility: hidden;
+    }
+
+    .rewiewMe2 {
+        visibility: visible;
+    } 
+
+    .reviewMe2 a {
+        visibility: visible;
+    }
+
+    .reviewMe2 a:hover {
+        visibility: visible;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px){	
+    input {
+        margin-top: 10px;
+        width: 30%;
+        height: 30px;
+        display: block;
+        border:1px solid #d8c060;
+        background-color: #474247;
+        color: #d8c060; 
+        border-radius: 30px;
+    }
+
+    nav li {
+        float: left;
+        border-bottom: 0;
+        border-right: 1px solid #d8c060;
+        width: 16.5%;
+    }
+
+    nav li:last-child {
+        border-right: none;
+    }
+
+    nav a {
+        font-family: calibri;
+        font-size: 15px;
+        text-decoration: none;
+        color: #d8c060;
+        display: block;
+        text-align: center;
+        padding: 12px;
+    }
+
+    li a:hover:not(.active){
+        background-color: #d8c060;
+        color: #474247;
+        box-shadow: 0 1px 0 1px black;
+    }
+
+    #comments {
+        margin-top: 10px;
+        max-width: 100%;
+        width: 80%;
+        height: auto;
+        display: block;
+        border: 2px solid #d8c060;
+        background-color: #474247;
+        color: #d8c060; 
+        border-radius: 3px;
+    }
+
+    #Courses {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 70%;
+        float: right;
+        box-shadow: 3px 3px 3px #474247;
+    }
+
+    #showcase {
+        padding-top: 13%;
+    }
+
+    #submit {
+        margin-top: 10px;
+        width: 10%;
+        display: block;
+        border:1px solid #d8c060;
+        background-color: #474247;
+        border-radius: 30px;
+        color: #d8c060;
+    }
+
+    #submit:hover {
+        margin-top: 10px;
+        width: 10%;
+        display: block;
+        border: 1px solid #474247;
+        border-radius: 30px;
+        font-family:calibri;
+        background-color: #d8c060;
+        color: #474247;
+    }
+
+    .altmain {
+        padding-left: 40px;
+        padding-right:40px;
+        font-size: 20px;
+        padding-bottom: 4%;
+    }
+
+    .credmain {
+        padding-left: 40px;
+        padding-right:40px;
+        font-size: 20px;
+        padding-bottom: 5%;
+    }
+
+    .certificates {
+        word-spacing: 3px;
+        text-align: center;
+        width: 100%;
+        border:1px solid #d8c060;
+        background-color: #474247;
+        padding: 3px;
+        margin-bottom: 4%;
+    }
+    
+    .mobileNav {
+        display: none;
+    }
+
+    .reviewMePanel {
+        visibility: visible;
+    }
+
+    .rewiewMe2 {
+        display: none;
+    } 
+
+    .reviewMe2 a {
+        display: none;
+    } 
+
+    .reviewMe2 a:hover {
+        display: none;
+    } 
+    
+    .vidPrompt {
+        padding: 10px;
+        border: 1px solid #d8c060;
+        background-color: #474247;
+        color: #d8c060;
+        margin-left: 0;
+        margin-right: 0;
+    }			
+} 
+
+/* Extra Extra large devices (large laptops and desktops, 1440px and up) */
+@media screen and (min-width: 1440px){
+    nav {
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    nav a {
+        font-family: calibri;
+        font-size: 15px;
+        text-decoration: none;
+        color: #d8c060;
+        display: block;
+        text-align: center;
+        padding: 12px 52px;
+    }
+
+    li a:hover:not(.active){
+        background-color: #d8c060;
+        color: #474247;
+        box-shadow: 0 1px 0 1px black;
+        transition: background-color .3s ease-in-out;
+    }
+
+    .altmain {
+        padding-left: 40px;
+        padding-right:40px;
+        font-size: 20px;
+        padding-bottom: 4%;
+    }
+
+    .buttonToBlog a {
+        border: 1px solid #d8c060;
+        border-radius: 30px;
+        text-decoration: none;
+        font-family:calibri;
+        background-color: #474247;
+        color: #d8c060;
+        box-shadow: 2px 2px 2px black;
+        padding: 3px;
+    }
+
+    .certificates {
+        word-spacing: 3px;
+        text-align: center;
+        width: 100%;
+        border:1px solid #d8c060;
+        background-color: #474247;
+        padding: 3px;
+        margin-bottom: 4%;
+    }
+
+    .credmain {
+        padding-left: 40px;
+        padding-right:40px;
+        font-size: 20px;
+        padding-bottom: 8%;
+    }
+    
+    .mobileNav {
+        display: none;
+    }
+
+    .reviewMePanel {
+        visibility: visible;
+    }
+
+    .rewiewMe2 {
+        display: none;
+    } 
+
+    .reviewMe2 a {
+        display: none;
+    } 
+
+    .reviewMe2 a:hover {
+        display: none;
+    } 
+}
+
